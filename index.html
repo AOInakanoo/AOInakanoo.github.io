@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nakano Portfolio | Web Pentester</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">nakano</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__container">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        <span class="home__greeting">Hi, I'm</span>
+                        <span class="home__name">Exel Nakano</span>
+                        <span class="home__profession">Web Pentester</span>
+                    </h1>
+                    <p class="home__description">Identifying vulnerabilities, securing digital assets, and building robust web applications through comprehensive penetration testing.</p>
+                    
+                    <div class="home__buttons">
+                        <a href="#contact" class="button button--primary">
+                            <span>Get In Touch</span>
+                            <i class='bx bx-chevron-right'></i>
+                        </a>
+                        <a href="#work" class="button button--secondary">
+                            View My Work
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__visual">
+                    <div class="home__social">
+                        <a href="#" class="home__social-link" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="#" class="home__social-link" aria-label="Behance">
+                            <i class='bx bxl-behance'></i>
+                        </a>
+                        <a href="#" class="home__social-link" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+
+                    <div class="home__image-container">
+                        <div class="home__blob-shape">
+                            <svg viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="blobGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#0071e3" stop-opacity="0.1"/>
+                                        <stop offset="100%" stop-color="#0071e3" stop-opacity="0.05"/>
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#blobGradient)" d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home__scroll-indicator">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <div class="about__container bd-grid">
+                <div class="section__header">
+                    <span class="section__subtitle">About Me</span>
+                    <h2 class="section__title">Security Researcher & Pentester</h2>
+                </div>
+
+                <div class="about__content">
+                    <div class="about__image-wrapper">
+                        <div class="about__image-frame">
+                            <img src="assets/img/about.png" alt="About Exel Nakano" class="about__image">
+                        </div>
+                        <div class="about__badges">
+                            <div class="badge">
+                                <i class='bx bx-shield-quarter'></i>
+                                <span>Security Expert</span>
+                            </div>
+                            <div class="badge">
+                                <i class='bx bx-bug'></i>
+                                <span>Bug Bounty</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__text-content">
+                        <h3 class="about__name">Exel Nakano</h3>
+                        <div class="about__title">Professional Web Pentester</div>
+                        
+                        <p class="about__description">
+                            Specialized in identifying and mitigating web application vulnerabilities through comprehensive penetration testing and security assessment.
+                        </p>
+
+                        <div class="about__platforms">
+                            <div class="platform">
+                                <div class="platform__icon">
+                                    <i class='bx bxl-hackerrank'></i>
+                                </div>
+                                <div class="platform__info">
+                                    <span class="platform__name">HackerOne</span>
+                                    <span class="platform__role">Pentester</span>
+                                </div>
+                            </div>
+                            <div class="platform">
+                                <div class="platform__icon">
+                                    <i class='bx bxl-meta'></i>
+                                </div>
+                                <div class="platform__info">
+                                    <span class="platform__name">Meta</span>
+                                    <span class="platform__role">Security Researcher</span>
+                                </div>
+                            </div>
+                            <div class="platform">
+                                <div class="platform__icon">
+                                    <i class='bx bx-globe'></i>
+                                </div>
+                                <div class="platform__info">
+                                    <span class="platform__name">Bali Bug Bounty</span>
+                                    <span class="platform__role">Contributor</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about__stats">
+                            <div class="stat">
+                                <div class="stat__number">12+</div>
+                                <div class="stat__label">Vulnerabilities Found</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__number">1+</div>
+                                <div class="stat__label">Years Experience</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <div class="skills__container bd-grid">
+                <div class="section__header">
+                    <span class="section__subtitle">My Expertise</span>
+                    <h2 class="section__title">Professional Skills</h2>
+                </div>
+
+                <div class="skills__content">
+                    <div class="skills__info">
+                        <p class="skills__description">
+                            With extensive experience in web application security, I specialize in identifying and exploiting vulnerabilities to help organizations strengthen their digital defenses.
+                        </p>
+
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <div class="skill__icon">
+                                        <i class='bx bx-code-alt'></i>
+                                    </div>
+                                    <span class="skill__name">HTML Injection</span>
+                                    <span class="skill__percentage">80%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="80"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <div class="skill__icon">
+                                        <i class='bx bx-lock-open-alt'></i>
+                                    </div>
+                                    <span class="skill__name">Broken Access Control</span>
+                                    <span class="skill__percentage">85%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="85"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <div class="skill__icon">
+                                        <i class='bx bx-cog'></i>
+                                    </div>
+                                    <span class="skill__name">Web Misconfiguration</span>
+                                    <span class="skill__percentage">65%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="65"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill__item">
+                                <div class="skill__header">
+                                    <div class="skill__icon">
+                                        <i class='bx bx-globe'></i>
+                                    </div>
+                                    <span class="skill__name">Webview Spoofing</span>
+                                    <span class="skill__percentage">85%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__visual">
+                        <div class="skills__image-container">
+                            <img src="assets/img/work3.jpg" alt="Security Skills" class="skills__image">
+                            <div class="skills__floating-elements">
+                                <div class="floating-element element-1">
+                                    <i class='bx bx-shield'></i>
+                                </div>
+                                <div class="floating-element element-2">
+                                    <i class='bx bx-lock'></i>
+                                </div>
+                                <div class="floating-element element-3">
+                                    <i class='bx bx-bug'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <div class="work__container bd-grid">
+                <div class="section__header">
+                    <span class="section__subtitle">My Portfolio</span>
+                    <h2 class="section__title">Recent Work</h2>
+                </div>
+
+                <div class="work__grid">
+                    <a href="#" class="work__card">
+                        <div class="work__image-wrapper">
+                            <img src="assets/img/work1.jpg" alt="Security Project 1" class="work__image">
+                            <div class="work__overlay">
+                                <div class="work__content">
+                                    <h3 class="work__title">Web Application Pentest</h3>
+                                    <p class="work__description">Comprehensive security assessment for enterprise application</p>
+                                    <span class="work__link">View Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="work__card">
+                        <div class="work__image-wrapper">
+                            <img src="assets/img/work2.jpg" alt="Security Project 2" class="work__image">
+                            <div class="work__overlay">
+                                <div class="work__content">
+                                    <h3 class="work__title">API Security Testing</h3>
+                                    <p class="work__description">REST API vulnerability assessment and penetration testing</p>
+                                    <span class="work__link">View Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="work__card">
+                        <div class="work__image-wrapper">
+                            <img src="assets/img/work3.jpg" alt="Security Project 3" class="work__image">
+                            <div class="work__overlay">
+                                <div class="work__content">
+                                    <h3 class="work__title">Mobile App Security</h3>
+                                    <p class="work__description">iOS/Android application security review and testing</p>
+                                    <span class="work__link">View Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="work__card">
+                        <div class="work__image-wrapper">
+                            <img src="assets/img/work4.jpg" alt="Security Project 4" class="work__image">
+                            <div class="work__overlay">
+                                <div class="work__content">
+                                    <h3 class="work__title">Network Pentesting</h3>
+                                    <p class="work__description">Internal network infrastructure security assessment</p>
+                                    <span class="work__link">View Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="work__card">
+                        <div class="work__image-wrapper">
+                            <img src="assets/img/work5.jpg" alt="Security Project 5" class="work__image">
+                            <div class="work__overlay">
+                                <div class="work__content">
+                                    <h3 class="work__title">Cloud Security Audit</h3>
+                                    <p class="work__description">AWS infrastructure security configuration review</p>
+                                    <span class="work__link">View Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="work__card">
+                        <div class="work__image-wrapper">
+                            <img src="assets/img/work6.jpg" alt="Security Project 6" class="work__image">
+                            <div class="work__overlay">
+                                <div class="work__content">
+                                    <h3 class="work__title">Code Review</h3>
+                                    <p class="work__description">Source code security analysis and vulnerability detection</p>
+                                    <span class="work__link">View Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="section__header">
+                    <span class="section__subtitle">Get In Touch</span>
+                    <h2 class="section__title">Let's Work Together</h2>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__info-title">Ready to Secure Your Applications?</h3>
+                        <p class="contact__info-description">
+                            Let's discuss how I can help identify vulnerabilities and strengthen your web application security.
+                        </p>
+
+                        <div class="contact__methods">
+                            <div class="contact__method">
+                                <div class="contact__method-icon">
+                                    <i class='bx bx-envelope'></i>
+                                </div>
+                                <div class="contact__method-info">
+                                    <span class="contact__method-label">Email</span>
+                                    <span class="contact__method-value">hello@nakano.dev</span>
+                                </div>
+                            </div>
+
+                            <div class="contact__method">
+                                <div class="contact__method-icon">
+                                    <i class='bx bx-current-location'></i>
+                                </div>
+                                <div class="contact__method-info">
+                                    <span class="contact__method-label">Location</span>
+                                    <span class="contact__method-value">Available Worldwide</span>
+                                </div>
+                            </div>
+
+                            <div class="contact__method">
+                                <div class="contact__method-icon">
+                                    <i class='bx bx-time'></i>
+                                </div>
+                                <div class="contact__method-info">
+                                    <span class="contact__method-label">Response Time</span>
+                                    <span class="contact__method-value">Within 24 Hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact__form">
+                        <div class="form__group">
+                            <input type="text" class="contact__input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="contact__input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="contact__input" placeholder="Subject">
+                        </div>
+                        <div class="form__group">
+                            <textarea class="contact__input contact__textarea" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="button button--primary button--full">
+                            <span>Send Message</span>
+                            <i class='bx bx-paper-plane'></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">nakano</a>
+                    <p class="footer__tagline">Web Security Specialist & Pentester</p>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Navigation</h4>
+                        <ul class="footer__list">
+                            <li><a href="#home" class="footer__link">Home</a></li>
+                            <li><a href="#about" class="footer__link">About</a></li>
+                            <li><a href="#skills" class="footer__link">Skills</a></li>
+                            <li><a href="#work" class="footer__link">Work</a></li>
+                            <li><a href="#contact" class="footer__link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 class="footer__title">Connect</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">LinkedIn</a></li>
+                            <li><a href="#" class="footer__link">GitHub</a></li>
+                            <li><a href="#" class="footer__link">HackerOne</a></li>
+                            <li><a href="#" class="footer__link">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+                <p class="footer__copy">&copy; 2024 nakano. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
